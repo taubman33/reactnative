@@ -380,7 +380,7 @@ Refresh your app and click the "Next" button. If the app's background color chan
 
 By now, your app should look like the following: 
 
-![](https://git.generalassemb.ly/maelstroms38/react-native-intro/blob/master/assets/prompt1.png?raw=true "")
+<img src='https://git.generalassemb.ly/maelstroms38/react-native-intro/blob/master/assets/prompt1.png?raw=true' width='1125' height='2436px'>
 
 ## Async Await
 
@@ -526,6 +526,7 @@ By now, your app should look like the following:
 
 ![](https://git.generalassemb.ly/maelstroms38/react-native-intro/blob/master/assets/prompt2.png?raw=true "")
 
+<img src='https://git.generalassemb.ly/maelstroms38/react-native-intro/blob/master/assets/prompt1.png?raw=true' width='1125' height='2436px'>
 
 ## Display Initial Prompt
 
