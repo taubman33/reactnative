@@ -378,10 +378,6 @@ const styles = StyleSheet.create({
 
 Refresh your app and click the "Next" button. If the app's background color changes, nicely done!! If not, debug your code and make sure it matches the above snippet.
 
-By now, your app should look like the following: 
-
-<img src='https://git.generalassemb.ly/maelstroms38/react-native-intro/blob/master/assets/prompt1.png?raw=true' width='1125' height='2436px'>
-
 ## Async Await
 
 The writing prompts app currently displays a static list of prompts. In order to make it a dynamic list, we created a server that sends random prompts.
@@ -521,12 +517,6 @@ const styles = StyleSheet.create({
 });
 ```
 </details>
-
-By now, your app should look like the following: 
-
-![](https://git.generalassemb.ly/maelstroms38/react-native-intro/blob/master/assets/prompt2.png?raw=true "")
-
-<img src='https://git.generalassemb.ly/maelstroms38/react-native-intro/blob/master/assets/prompt1.png?raw=true' width='1125' height='2436px'>
 
 ## Display Initial Prompt
 
