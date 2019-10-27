@@ -14,6 +14,8 @@ Welcome to cross-platform app development. With React Native, your apps are plat
 - Structure a React Native application
 - Fetch data from an API using axios
 - Use Hooks to modify internal app state
+- Create reusable components with props
+- Style components using a custom Stylesheet
 
 ## Start it up
 
@@ -138,18 +140,27 @@ export default function App() {
 }
 ``` 
 
+## React Native JSX and Docs
+
+As you may have noticed, this looks just like Javascript and JSX (React). 
+
+React Native was built with React developers in mind. The difference is there are not any markup tags such as `<div>`. 
+
+The React Native documentation illustrates these built-in components:
+- [View](https://facebook.github.io/react-native/docs/view)
+- [Text](https://facebook.github.io/react-native/docs/text)
+
+## Turn and Talk (5 Mins)
+
+Team up with a partner and pick any component listed in the React Native documentation. With your partner, ask each other to read & explain the components you chose. Answer the following questions:
+
+- What is the purpose of the component you chose?
+- Is there a Web equivalent of the component? 
+(ex: A `<View>` in React Native version of a standard Web `<div>`)
+
 ## Building Reusable Components
 
 We will continue to build our first React Native app, a writing prompts app.
-
-### By the end of this lesson, developers will be able to:
-
-- Create reusable components with props
-- Style components using a custom Stylesheet
-
-### First React Native Component
-
-Continuing from chapter one, we will build our first React Native component. 
 
 ### RoundedButton Component
 
@@ -211,7 +222,7 @@ const styles = StyleSheet.create({
 
 ### Import RoundedButton
 
-The `RoundedButton` component displays `text` wrapped inside of a pressable rounded button. Let's bring it into our `App.js`:
+The `RoundedButton` component displays `text` wrapped inside of a [pressable](https://facebook.github.io/react-native/docs/touchableopacity) rounded button. Let's bring it into our `App.js`:
 
 Add this import code snippet to the top of your `App.js`:
 
@@ -256,11 +267,7 @@ const styles = StyleSheet.create({
 </details>
 
 
-### React Native - Elements and Props
-
-As you may have noticed, this looks just like Javascript and JSX (React). 
-
-React Native was built with React developers in mind. The difference is there are not any markup tags such as `<div>`. 
+### React Native - Flexbox
 
 Building apps in React Native allows us to use flexbox to position our elements.
 
