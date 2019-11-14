@@ -306,7 +306,7 @@ import React, { useState } from 'react';
 
 Our `App.js` will need to initialize it's state with a `color` string. Let's declare our first hook, to add and modify this property:
 
-```
+```javascript
 // import statements
 
 export default function App() {
